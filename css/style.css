@@ -1,0 +1,52 @@
+@font-face {
+    
+    font-family: BebasNeue;
+    src: 
+        url("../fonts/BebasNeue Bold.ttf");
+    
+}
+
+@font-face {
+    
+    font-family: logo;
+    src:
+        url("../fonts/logo_lobster_1_4.otf");
+    
+}
+
+* {
+    
+    box-sizing: border-box;
+    
+}
+
+main {
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  background-color: #fff;
+    
+}
+
+.wrapper {
+  flex-grow: 1;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: BebasNeue;
+    
+    
+}
+
+#logo {
+    font-size: 49px;
+    font-family: logo, BebasNeue, serif;
+    color: #3cc3b5;
+    margin-left: 25px;
+
+}
+
+header {
+    
+   
+    
+}
