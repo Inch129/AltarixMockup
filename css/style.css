@@ -1,28 +1,28 @@
 @font-face {
-    
-    font-family: BebasNeue;
-    src: 
-        url("../fonts/BebasNeue Bold.ttf");
-    
+font-family: BebasNeue;
+src: 
+    url("../fonts/BebasNeue Bold.ttf");
 }
 
 @font-face {
-    
-    font-family: logo;
-    src:
-        url("../fonts/logo_lobster_1_4.otf");
-    
+font-family: logo;
+src:
+    url("../fonts/logo_lobster_1_4.otf");
 }
 
+@font-face {
+font-family: OpenSans;
+src:
+    url("../fonts/Open Sans.ttf");
+}
+
+
 * { 
-
 box-sizing: border-box; 
-
 } 
 
-
 main { 
-background-color: red; 
+/*background-color: red; */
 } 
 
 .wrapper { 
@@ -30,19 +30,81 @@ width: 100%;
 max-width: 1024px; 
 margin: 0 auto; 
 font-family: BebasNeue; 
-background-color: cadetblue; 
 }
 
 #logo { 
 font-size: 49px; 
 font-family: logo, BebasNeue, serif; 
 color: #3cc3b5; 
-margin-left: 25px; 
-
+margin-left: 25px;
+margin-bottom: 22px;
+margin-top: 22px;
 } 
 
 header { 
+max-height: 82px;
+position: relative;
+}
+
+.search {
+position: absolute;
+left: 500px;
+top: 15px;
+width: 400px;
+max-height: 31px;
+max-width: 435px;
+}
+
+footer {
+max-height: 383px;
+background-color: #3cc3b5;        
+}
+
+footer .top {
+display: flex;
+max-height: 336px;
+justify-content: space-around;
+}
 
 
 
+.column-title {
+text-transform: uppercase;
+color: #fff;
+margin: 25px 20px;
+font-size: 27px;
+font-family: BebasNeue, monospace;
+}
+
+.column-list {
+margin: 30px 20px;
+padding: 0;
+list-style: none;
+white-space: nowrap;
+color: #fff;
+font-family: OpenSans, Arial;
+font-size: 15px;
+}
+
+ul li {
+margin-bottom: 10px;
+}
+
+.sub {
+background-color: #2da89b;
+font-family: 'Open Sans', arial;
+max-height: 45px;
+margin: auto 0;
+font-size: 15px;
+text-align: center;
+color: #fff;
+background-color: #2da89b;
+opacity: 0.9;
+}
+
+.copyright {
+display: inline-block;
+padding: 15px 15px;
+font-family: OpenSans, arial;
+white-space: nowrap;
 }
